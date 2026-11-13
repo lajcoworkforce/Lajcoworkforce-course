@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to Write a 100% ATS-Friendly CV</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+:root{--bg:#fff;--card:#fff;--ink:#14213d;--mute:#52607d;--green:#0c1e5b;--mint:#f5f6f8;--sun:#e83420;--coral:#e83420;--coralbg:#fdecea;--line:#dcdfe6;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1426;--card:#16203a;--ink:#e8eefb;--mute:#a6b4d4;--green:#4c7fe8;--mint:#1b2a4d;--coralbg:#3a1a20;--line:#2a3a60}}
+:root[data-theme="dark"]{--bg:#0d1426;--card:#16203a;--ink:#e8eefb;--mute:#a6b4d4;--green:#4c7fe8;--mint:#1b2a4d;--coralbg:#3a1a20;--line:#2a3a60}
+*{box-sizing:border-box}html{scroll-padding-top:12px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Source Sans 3",Arial,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque",Arial,sans-serif;line-height:1.15;margin:0 0 .5em}
+.hero{background:#fff;color:#14213d;padding:40px 20px 36px;border-bottom:8px solid #e83420}
+.wrap{max-width:860px;margin:0 auto;padding:0 18px}
+.hero .wrap{padding:0}
+.hero h1{font-size:clamp(2rem,6vw,3.4rem);font-weight:800;color:#0c1e5b}
+.hero p{max-width:600px;color:#14213d;margin:0 0 20px}
+.badge{display:inline-block;background:var(--sun);color:#fff;font-weight:600;border-radius:99px;padding:4px 14px;font-size:.9rem;margin-bottom:16px}
+.brandrow{display:flex;align-items:center;gap:12px;margin-bottom:14px}.logo{height:68px;width:auto;flex:none}.brandrow .brand{margin:0}
+.brand{color:#e83420;font:800 1.05rem "Bricolage Grotesque",Arial,sans-serif;letter-spacing:.06em;margin-bottom:14px}
+.toc{display:flex;flex-wrap:wrap;gap:8px}
+.toc a{color:#0c1e5b;border:1px solid #0c1e5b;border-radius:99px;padding:4px 12px;text-decoration:none;font-size:.92rem}
+section{padding:36px 0 8px}
+.mh{display:flex;gap:14px;align-items:center;margin-bottom:14px}
+.mh b{flex:none;width:46px;height:46px;border-radius:14px;background:var(--sun);color:#fff;display:grid;place-items:center;font:800 1.3rem "Bricolage Grotesque",Arial}
+.mh h2{margin:0;font-size:clamp(1.4rem,4vw,1.9rem)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:12px 0}
+.tip{background:var(--mint);border-left:5px solid var(--green);border-radius:8px;padding:12px 16px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.rule h3{font-size:1.05rem;color:var(--green)}
+.bad,.good{border-radius:8px;padding:8px 12px;margin:8px 0 0;font-size:.93rem}
+.bad{background:var(--coralbg);border-left:5px solid var(--coral)}
+.good{background:var(--mint);border-left:5px solid var(--green)}
+.bad:before{content:"Wrong: ";font-weight:600;color:var(--coral)}
+.good:before{content:"Right: ";font-weight:600;color:var(--green)}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:var(--green);color:#fff}
+.scroll{overflow-x:auto}
+ul,ol{padding-left:22px;margin:.4em 0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chips span{background:var(--coralbg);border:1px solid var(--coral);border-radius:99px;padding:3px 12px;font-size:.92rem}
+.paper{background:#fff;color:#111;font:13.5px/1.45 Calibri,Arial,sans-serif;max-width:640px;margin:14px auto;padding:30px 34px;border-radius:4px;box-shadow:0 6px 24px rgba(12,30,91,.25);border-top:8px solid var(--green)}
+.paper h4{font:700 15px Calibri,Arial,sans-serif;border-bottom:1.5px solid #111;margin:14px 0 5px;padding-bottom:2px;letter-spacing:.03em}
+.paper .nm{font:700 24px Calibri,Arial,sans-serif;margin:0}.paper .ct{margin:2px 0 4px}
+.paper ul{margin:3px 0 6px;padding-left:18px}.paper p{margin:3px 0}.paper .r{display:flex;justify-content:space-between;gap:8px;font-weight:700;flex-wrap:wrap}
+.paper .r span{font-weight:400}
+.paper .no,.paper .yes{font:600 12px/1.35 Arial,sans-serif;padding:4px 8px;margin:4px 0 8px;border-left:4px solid}.paper .no{background:#fdecea;color:#b3260f;border-color:#e83420}.paper .yes{background:#f5f6f8;color:#0c1e5b;border-color:#0c1e5b}
+.cap{text-align:center;color:var(--mute);font-size:.9rem;margin:0}
+.score{position:sticky;bottom:10px;background:var(--green);color:#fff;border-radius:14px;padding:12px 18px;margin-top:14px;box-shadow:0 4px 18px rgba(0,0,0,.3)}
+.score strong{font:800 1.5rem "Bricolage Grotesque",Arial}
+.chk label{display:flex;gap:10px;padding:6px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.chk input{width:20px;height:20px;flex:none;accent-color:var(--green);margin-top:3px}
+footer{text-align:center;padding:36px 18px 60px;color:var(--mute)}
+@media print{.score,.toc{display:none}.hero{background:#fff;color:#000}.hero p{color:#333}body{font-size:14px}.paper,.card{break-inside:avoid;box-shadow:none}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<div class="brandrow"><img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAACgBAMAAAB54XoeAAAAMFBMVEX///////7+///+/v79/f7//Pv8/P3y8PPVzNW4nqyKbYXqOyfnKxYvM2YKHFoBEVLSvpcmAAAKeElEQVR42u1Yb3ATdRp+kk02SUubjcjdyV2hBU9LbWVpavGAwkqxeidCZxCGcwostkZghrMeHigq1vGGWhVlzrlSuYFyc0pLHVruOMbRFoXBuaP2kCjaP3hNooylVPPbpPQkTdnf3oekbdrmX5N87Psl2c3m3ed93vf3/gOmZEqmZEqmZErCyoIE62PAJ1hjORP1q6MRre7NH3S9CVS4qtwwz9EZ1aOqqN6q/aeSumQocQhzlwqG/nQuKojqaB5Ku88tcQuvJMzDWn1bm6GtTZswk1eJ3IB1toHXdybGZEbLq1rnfmxceDJRFie3tWq1+ra2tXxiTF61yUQ6vltpNOhdnYkwmXl/mfGcgu9qjfeeSgjC3I2Z8pYeXOt5ZJDz9CYAYVqG+/xDgHyXVXX/3ES4xNDWxnC+L63aBJh896bbBtrtAOjqHG8Ux08dMQjvQ2saAKD7Yy4Boaj91YihWn1b2xo+XpNXPWi6/mMHAICuNBoMrs5480JzW/kwqhmL285r40S4YKkgb+3xXwz2rjHoI4ViBKfIm93nHxq5+LXVfX/8mVA7JiYjhmJ4hJTBD3cHXK50q1fFxeH8jbd1SKN+Ve5gTYOu3ng4NOF64OXJixyXHt9JMTodgZcn4s42Lv+nOVo/RlB40ZSeDgDmCzwA8OWu+BReOoF0BoD2QuVXHKBKy0AkjeFbES1zji5c41D//K7iU6dmOeacPEcXyXFFtrml5QAAfUtLazGA11reN8eFEPxDxbhgV60wwi1/5rqdd39ywhqXQu3cdySTpDKqJE6luEyulIg9WAQvL+782AQTp/phpRsqE4zvRzp5ERAymnLXnFyAnlap5qaDfuZ4Oz6FwsPF4+4ca/koDh9r7pUIkRRKFEIkhRCFEmdZPAhZzYBbGff8X61HwoMI92PBYvf3v5SMr2l/3+XPCtrNhf+Iw2SxiVQcoqQzRdrvv2Ogg2zsJmuYq9OmoUZU2bkamwMA1OnPGPeetsZqsprh+vDoVtOydFffzRYf5rPFabw15gFvu3REgKi3E/In1lecb99OOsyxU1hLXhahEbYSIlf4qGMjksiE65Oe1r13sZf2WJ+G1+yZZgMgLy9QeW/0xgaQNdBBllm7dt1vqZNKXSgFAPENab8Yo8VzXyDtZh5QJynth6nUCREAm0TDkxjGy8Itqg9z3q3ioHqP9v19tbGuRDgDUNfcSzFyOP/eWe9Km5fPnPkzVXLW17fCzB3O6ZVL9DMHdY5YFGrY51LW37HqhsfjMd3wzKpb7FmqNMqYPmOB5LLGkmDVX3CEfgsAkADV3sNc/7ZteTj3vPHBL2MyuWDrvFOpup9kGDxQmQzOr2tThaGsDwutC9YYn5RjUShk3tlysTlpngfgXJ5/f5Vdm81r7ivdeKt+pn52DKePWWjzsgDuWdvS3Lq2mAFEfROhdZrSN6QjYmxh7ckHtEBLc6uWKQYY0WAn8n42ifbmx1LiX5DaeQCMuaW59R4eADTCbol4K/TEy8bA4QMLMhthBZSrG6Hb2wMAtOfM9OXXzTcw0xCaxJBh074s9cvx1cObv7PWqN36kSotBgozyXCeamke7dQLdY1UaqC97OQraBJt5ycqhKi3E0pkzaRPSskf3Z8Gm+v+tj7L7UL/8+JkFV7JUKy+FDCidu0aAPI7d/5FBaybtMUjscHo/CYzft0sXiUkdB0IgVCt5rp9Ew8zx38rp+rAJQCQxRcBzQZ+cgpzdrhbs33T0zf+gO0szCvnAWyobwfXnzNZhXPg351l7xgu0oo7JR1YUXd0NtekFH07qRLA1O1JfekmAIAzjd7mALZlX7H7Wsn/kj+ZFEJGnT7k/yWdG/P+rN1PuYdqNnwzsJGfjEKa5+5cNAoLvNnM8wCYkq4/uFKrq70n1Nn8ZEwuma+c8A2JM9r32IA2AMkAUuo7FONbe7PecT75wMnJKLzyouLw5ZPv+xUAu3xPao7Wz3Y37Cg4wza75pybRDvHqn8cSvECALPusYBnv0zZ7L6WKR4BxNVLQ7R1QTmk98OWAwB4uNBkAmAymUwckLTZPVRTegQAY1eHiMSgCEuzRV8rrbrlWGCPPbDM+PJer69oD1x7+D9RI5TT6RUrACgFDtVw2KhMnGKs3pvl+xt1Tf8i6hKg0T6XUvwdACD5Vt5lMhgMBoPhhscz9LllyXnfK0N2JMG8rL7E9fm/WvvnFDT690oFzM07xZGqYBdynNHmLmGPdEQYGQRkHzO7ieQtLw3M6Ffzoo3D9AzF4d99qNv3yOsUIHnwcaS+XO0N2CuGIjGI5Nu8mtFEO8j6Kom8n+XHzjA7hOh7Bnb0+1UN8nWHqVTHjPl/YQAvkdL/9tGul02iHQyLfcMdccBrQ3QkQTgsyXV/kHPBf2ZKVa2b/7voKfdQTeHYsi8vcPzCGl1g9wj+sAaQbXJdv9n6uCu1uvr0uOCfd3ZgtxiNQrbfOO2tYYU8pzjrjxq5t/wnJHCnY1M94ojKJ4GDg1jr3NlIpXqNENZ3YREW/NHdmjNaRlJ+Wuy+tr7kzMQDf7dDuzQahWkZimPYFObo/OuPuZNryoJM8fK8s/1LomhlNYH9JLuFjA6OQVrSS0JUYd07ckhXGCihY09IRBInvHf7aE+ezx4mUj0Twi6myCbnReYwJ3dkS8p+Wimib/2GEGsQeebZ/pKIJDL5Nqc/SWnE3RKR9peFO6PthVENyf4YNNgJIXtD887qg4z3402WNa7uJb50Un/UaHQpfaFXmt7F3wz8jo+gcNNLqg9nAUD+6erVqobPU/4VZgpLC92RBORNp+jrU/dRqUtn81rCxWwKjbQjYTN9Ya0RdktSX/kW0gu2jA9DopeNmBmuavzTg1yBJHqtEmAsoXxZaHdGqAPLfaNmoa6J0APY0kgk5+WacqDIEhSm+GakydRXevJxmEqdeNZOJUok6jxWCSAYTM0i2pEXeUj2OQSvSkRydiuUSIrzco0I5E9gkw0/mfqHZEbYJkle4ZBClK4KXdVxohCiKN3HKgHWIkwIinEkju1t+E25V04XfHBUZ3z9N49K3HtNrw+1NJiu3mLQuQx5WXmFGX92FAlKwKZq+ozcsDsSsVaqEHVNVK5ppJJcD1ZgLCKwq+q4bwV7ub4CYAPYZEN1JMNdjV0uYg9R0mWnknwARTwArLAA7LOHbBIlkuLsOlAOWIYzhmZhWBJZPfVgHyXERqW+CozkGbNFAPSvjsDcCWj8MMUmqUIMd5Tat0mEEKJ0lTOlY5JpGaB79qDN5/SGVwAUlfFA4R7JGjq0xTelGjshhNBjAjv+vRqLCDzxdrcPZvfbOwHWIrBJ4epAkZ3YKCE+dwTL+WUAXmkYhlkpgil6Isx4z2YSQgmR+obdMVHyLAKw62B3gNPDkMgmUUKIcjnAHcHMsAC6quN2H8yuyhdCt3XCHp87NKXhU1KeBcAzBxslSiRF7iYhSSx8g0g0OH0T2CwFdFXHbQolYfYFGr0i1yGfRzSSbxGAZw52KwqpCIlAOF6Nouj3d0UioKtq6GPDLcLKMBnJs/DArjC1uah00mtGSxkSLWZMyZRMyZRMyZQA+D/OSHTg1vU06QAAAABJRU5ErkJggg==" alt="Lajco Workforce Solutions logo"><div class="brand">LAJCO WORKFORCE SOLUTIONS</div></div>
+<h1>How to write a 100% ATS-friendly CV</h1>
+<p>Nine short lessons, two real CV templates and a self-test. Read one lesson at a time, then build your CV as you go.</p>
+<nav class="toc"><a href="#m1">1 What is ATS</a><a href="#m2">2 Rules</a><a href="#m3">3 Structure</a><a href="#m4">4 Keywords</a><a href="#m5">5 Bullets</a><a href="#m6">6 NYSC</a><a href="#m7">7 Mistakes</a><a href="#m8">8 Templates</a><a href="#m9">9 Tailoring</a><a href="#test">Self-test</a></nav>
+</div></header>
+<main class="wrap">
+
+<section id="m1"><div class="mh"><b>1</b><h2>What is an ATS?</h2></div>
+<p>An <strong>Applicant Tracking System</strong> is software companies use to receive, store and search CVs. When you apply, it <strong>parses</strong> your CV into pieces (name, jobs, dates, skills), stores them, and lets a recruiter search or rank them. Then a person reviews the best matches.</p>
+<div class="tip">Most systems do not reject you automatically. The real danger is a CV the software <strong>cannot read</strong>: your details land in the wrong place or go missing, and recruiters never find you. So a good CV is <strong>readable</strong> and <strong>relevant</strong>.</div>
+<p><em>Practice:</em> copy the job post you want into a document. You will use it in lesson 4.</p></section>
+
+<section id="m2"><div class="mh"><b>2</b><h2>Nine formatting rules</h2></div>
+<div class="grid">
+<div class="card rule"><h3>1. One column only</h3><p>Software reads left to right, top to bottom.</p><div class="bad">Sidebar with skills next to your job history</div><div class="good">One column, top to bottom</div></div>
+<div class="card rule"><h3>2. No tables, photos, icons or skill bars</h3><p>They are skipped or scrambled.</p><div class="bad">Excel ★★★★☆ and "Communication 90%"</div><div class="good">Microsoft Excel (intermediate: formulas, pivot tables)</div></div>
+<div class="card rule"><h3>3. Contact details in the body</h3><p>Many systems ignore headers and footers.</p><div class="bad">Phone and email in the page header</div><div class="good">Contact line directly under your name</div></div>
+<div class="card rule"><h3>4. Standard fonts</h3><p>Calibri, Arial or Times New Roman. Name 16 pt, headings 12 pt bold, body 11 pt.</p><div class="bad">Brush Script, 8 pt text</div><div class="good">Calibri 11 pt</div></div>
+<div class="card rule"><h3>5. Standard headings</h3><p>The software looks for familiar labels.</p><div class="bad">My Journey, What I Bring</div><div class="good">Work Experience, Skills</div></div>
+<div class="card rule"><h3>6. Plain bullets and colours</h3><p>Black text on white, simple round bullets.</p><div class="bad">➤ ✦ ❖ bullets, blue text</div><div class="good">• standard bullets</div></div>
+<div class="card rule"><h3>7. Right file type and name</h3><p>.docx, or a text-based PDF (you can highlight the words).</p><div class="bad">CV final final 2.docx, scanned PDF</div><div class="good">Chidinma_Okafor_CV.docx</div></div>
+<div class="card rule"><h3>8. Consistent dates</h3><p>One style everywhere. Use Present for a current job.</p><div class="bad">March 2025 – 02/26, 2024 – now</div><div class="good">Mar 2025 – Present</div></div>
+<div class="card rule"><h3>9. Right length</h3><p>Fresh graduate: 1 page. 3 to 10 years: 1 to 2 pages. Senior: 2 pages.</p><div class="bad">3 pages for 1 year of work</div><div class="good">1 tight page</div></div>
+</div></section>
+
+<section id="real"><div class="mh"><b>✎</b><h2>A real CV: don't do this, do this</h2></div>
+<p>Same person, same job. Red notes show what to avoid. Blue notes show what to do.</p>
+<h3>Wrong version</h3>
+<div class="paper" style="border-top-color:#e83420">
+<div style="float:right;width:64px;height:76px;border:1px solid #999;text-align:center;font-size:11px;padding-top:28px">PHOTO</div>
+<p class="nm">CHIDINMA OKAFOR</p>
+<p class="no">Don't add a photo. Software skips it and it wastes space.</p>
+<p class="ct">[Page header] 0803 000 0000 | chidinma@email.com</p>
+<p class="no">Don't put contact details in the header or footer. Many systems ignore them.</p>
+<h4>MY JOURNEY</h4>
+<p class="no">Don't use creative headings. Write WORK EXPERIENCE.</p>
+<p>Admin Assistant, ABC Ltd | March 2025 – now</p>
+<p class="no">Don't mix date styles or write "now". Write Mar 2025 – Present.</p>
+<ul><li>➤ Responsible for answering calls</li></ul>
+<p class="no">Don't list duties or use fancy bullets. Show a result with a number.</p>
+<h4>WHAT I BRING</h4>
+<p>Excel ★★★★☆ &nbsp; Communication 90%</p>
+<p class="no">Don't use stars or percentages. Name the skill in words.</p>
+</div>
+<h3>Right version</h3>
+<div class="paper">
+<p class="nm">CHIDINMA OKAFOR</p>
+<p class="ct">Lagos, Nigeria | +234 803 000 0000 | chidinma.okafor@gmail.com</p>
+<p class="yes">Do put contact details here, in the body, directly under your name.</p>
+<h4>PROFESSIONAL SUMMARY</h4>
+<p>Recent B.Sc. Business Administration graduate and NYSC corps member skilled in scheduling and client support. Seeking an Operations Coordinator role.</p>
+<p class="yes">Do write 2 to 4 lines with the job title and key skills from the job post.</p>
+<h4>WORK EXPERIENCE</h4>
+<div class="r">Admin Assistant, ABC Ltd, Lagos <span>Mar 2025 – Present</span></div>
+<p class="yes">Do use standard headings and one date style.</p>
+<ul><li>Handled 40+ client calls daily, resolving 90% of enquiries on first contact</li></ul>
+<p class="yes">Do start with an action verb and show a number.</p>
+<h4>SKILLS</h4>
+<ul><li>Microsoft Excel (formulas, pivot tables), appointment scheduling, client communication</li></ul>
+<p class="yes">Do write skills in plain words, not graphics.</p>
+</div></section>
+
+<section id="m3"><div class="mh"><b>3</b><h2>CV structure</h2></div>
+<ol><li><strong>Contact details:</strong> name, phone (+234...), professional email, city and state, LinkedIn (optional)</li><li><strong>Professional Summary:</strong> 2 to 4 lines</li><li><strong>Skills:</strong> relevant, and only those you can defend</li><li><strong>Work Experience:</strong> newest first</li><li><strong>Education:</strong> degree, school, year</li><li><strong>Certifications</strong> and optional Projects or Volunteering</li></ol>
+<div class="card"><strong>Summary formula:</strong> [Level or title] with [experience] in [field]. Skilled in [3 skills from the job post]. [What you will do for the employer.]
+<div class="bad">Hardworking person looking for a good company to grow.</div>
+<div class="good">Organised Operations Coordinator with 2 years in scheduling, client communication and records. Skilled in Excel and appointment coordination.</div></div>
+<p>Leave out date of birth, marital status, religion, state of origin and "references available on request".</p></section>
+
+<section id="m4"><div class="mh"><b>4</b><h2>Keywords</h2></div>
+<p>Keywords are the words in the job post: titles, skills, tools and duties. Use their wording where it is true for you.</p>
+<ol><li>Highlight every skill, tool and duty in the job post.</li><li>Words repeated more than once matter most.</li><li>Make two lists: what you truly have, and what you lack (never lie).</li><li>Place the first list in your Summary, Skills and bullets.</li></ol>
+<div class="tip"><strong>From this job post:</strong> Operations Coordinator, operations support, scheduling and confirming appointments, client service, coordination with officers.</div>
+<p>Do not stuff keywords or hide white text. Use each one naturally.</p></section>
+
+<section id="m5"><div class="mh"><b>5</b><h2>Strong bullet points</h2></div>
+<p><strong>Formula:</strong> action verb + what you did + how + result (with a number).</p>
+<div class="scroll"><table><tr><th>Weak</th><th>Strong</th></tr>
+<tr><td>Responsible for answering calls</td><td>Handled 40+ client calls daily, resolving 90% of enquiries on first contact</td></tr>
+<tr><td>Did data entry</td><td>Entered and verified 200+ customer records weekly in Excel with 99% accuracy</td></tr>
+<tr><td>Helped organise events</td><td>Coordinated logistics for a 150-guest event, on schedule and 10% under budget</td></tr></table></div>
+<p>Start with a past-tense verb (Coordinated, Scheduled, Reduced, Led). No "I" or "my". No numbers? Estimate honestly ("over 20"). Never invent figures.</p></section>
+
+<section id="m6"><div class="mh"><b>6</b><h2>For fresh graduates and NYSC members</h2></div>
+<p>You have experience; you have not named it yet. All of these count:</p>
+<div class="chips" style="--x:0"><span style="background:var(--mint);border-color:var(--green)">NYSC primary assignment</span><span style="background:var(--mint);border-color:var(--green)">CDS projects</span><span style="background:var(--mint);border-color:var(--green)">SIWES / internship</span><span style="background:var(--mint);border-color:var(--green)">Volunteering</span><span style="background:var(--mint);border-color:var(--green)">Final-year project</span><span style="background:var(--mint);border-color:var(--green)">Student leadership</span><span style="background:var(--mint);border-color:var(--green)">Online certificates</span></div>
+<p><strong>Order:</strong> Contact, Summary, Education (high up), Skills, Experience, Certifications. State your NYSC status clearly, for example "NYSC: Ongoing, expected completion Feb 2027".</p></section>
+
+<section id="m7"><div class="mh"><b>7</b><h2>Common mistakes</h2></div>
+<div class="chips"><span>Fancy Canva or two-column template</span><span>Contact in header or footer</span><span>Photo, icons, skill bars</span><span>Creative headings</span><span>Same CV for every job</span><span>Vague words like "hardworking"</span><span>Typos</span><span>Scanned PDF</span><span>Odd file name</span><span>Lying or exaggerating</span><span>Long paragraphs</span></div></section>
+
+<section id="m8"><div class="mh"><b>8</b><h2>Two real templates</h2></div>
+<p>Copy the layout into Word. Keep the headings exactly as shown.</p>
+<h3>Template A: experienced applicant</h3>
+<div class="paper">
+<p class="nm">ADAEZE NWOSU</p><p class="ct">Lagos, Nigeria | +234 803 111 2222 | adaeze.nwosu@gmail.com | linkedin.com/in/adaeze-nwosu</p>
+<h4>PROFESSIONAL SUMMARY</h4><p>Operations Coordinator with 4 years of experience in scheduling, client service and reporting. Skilled in Microsoft Excel, appointment coordination and vendor follow-up. Dedicated to keeping daily operations on schedule.</p>
+<h4>SKILLS</h4><ul><li>Technical: Microsoft Excel, Word, PowerPoint, Google Workspace</li><li>Core: Scheduling, record keeping, reporting, client service</li><li>Soft: Communication, time management</li></ul>
+<h4>WORK EXPERIENCE</h4>
+<div class="r">Operations Coordinator, Prime Facilities Ltd, Lagos <span>Jan 2023 – Present</span></div>
+<ul><li>Confirmed 25+ client appointments daily, cutting no-shows by 25%</li><li>Prepared weekly Excel reports on service completion for 6 officers</li><li>Resolved 90% of client complaints within 24 hours</li></ul>
+<div class="r">Admin Officer, Bright Services, Lagos <span>Mar 2021 – Dec 2022</span></div>
+<ul><li>Maintained records for 500+ client accounts with 99% accuracy</li><li>Coordinated vendor deliveries, keeping supplies on schedule</li></ul>
+<h4>EDUCATION</h4><div class="r">B.Sc. Business Administration, University of Benin <span>2020</span></div>
+<h4>CERTIFICATIONS</h4><ul><li>Customer Service Fundamentals, Alison, 2022</li></ul></div>
+<p class="cap">Sample CV. All names and details are fictional.</p>
+
+<h3>Template B: fresh graduate / NYSC</h3>
+<div class="paper">
+<p class="nm">CHIDINMA OKAFOR</p><p class="ct">Lagos, Nigeria | +234 803 000 0000 | chidinma.okafor@gmail.com | linkedin.com/in/chidinma-okafor</p>
+<h4>PROFESSIONAL SUMMARY</h4><p>Recent B.Sc. Business Administration graduate and NYSC corps member with hands-on experience in administration, scheduling and client support. Proficient in Microsoft Excel and Word, with strong attention to detail. Seeking an Operations Coordinator role.</p>
+<h4>EDUCATION</h4><div class="r">B.Sc. Business Administration, University of Lagos <span>2025</span></div>
+<ul><li>Second Class Upper. Coursework: Operations Management, Business Communication</li><li>Final-year project: Impact of Scheduling Systems on Customer Satisfaction</li><li>NYSC: Ongoing, expected completion Feb 2027</li></ul>
+<h4>SKILLS</h4><ul><li>Technical: Microsoft Excel, Word, PowerPoint, data entry</li><li>Core: Appointment scheduling, record keeping, reporting, client service</li><li>Soft: Communication, time management, attention to detail</li></ul>
+<h4>EXPERIENCE</h4>
+<div class="r">Admin Assistant (Corps Member), ABC Logistics Ltd, Lagos <span>Mar 2026 – Present</span></div>
+<ul><li>Scheduled and confirmed 15+ client appointments daily</li><li>Maintained records for 300+ client accounts with 99% accuracy</li></ul>
+<div class="r">CDS Project Lead, Community Health Campaign <span>2026</span></div>
+<ul><li>Led 12 corps members to educate 500+ residents on hygiene</li></ul>
+<div class="r">Intern, XYZ Services, Lagos <span>Jul 2024 – Sep 2024</span></div>
+<ul><li>Answered 30+ client calls daily and logged enquiries in Excel</li></ul>
+<h4>CERTIFICATIONS</h4><ul><li>Microsoft Excel for Beginners, Coursera, 2025</li></ul></div>
+<p class="cap">Sample CV. All names and details are fictional.</p></section>
+
+<section id="m9"><div class="mh"><b>9</b><h2>Tailoring and final checks</h2></div>
+<h3>The 15-minute routine for every application</h3>
+<ol><li>Read the job post twice and highlight 8 to 10 keywords.</li><li>Mirror the job title and 3 key skills in your Summary.</li><li>Put the most relevant skills first.</li><li>Adjust 2 or 3 bullets to match the main duties.</li><li>Save a new copy as Firstname_Lastname_CV.</li><li>Spell-check, then read it aloud.</li></ol>
+<div class="tip"><strong>Copy-paste test:</strong> select all in your CV, paste it into Notepad. If the order is logical and your name, phone and email are there, the software can read it.</div></section>
+
+<section id="test"><div class="mh"><b>✓</b><h2>Self-evaluation</h2></div>
+<p>Tick each statement that is true for your CV. One point each.</p>
+<div class="card chk" id="chk"></div>
+<div class="score" role="status"><strong id="n">0</strong> / 25 <span id="msg">Start ticking to see your result.</span></div>
+<div class="tip"><strong>Final words from your tutor:</strong> A good CV is not about fancy design. It is clear, honest, relevant and easy to read, by software and by people. Build one master CV, then spend 15 minutes tailoring it to each job. Wishing you success.</div></section>
+</main>
+<footer>Lajco Workforce Solutions. Best of luck with your applications.</footer>
+<script>
+var items=["Single column","No tables, text boxes, icons, photos or skill bars","Phone, email and location are in the body, not header or footer","Standard font at 10 to 12 pt","Standard headings","Simple bullets, black text on white","Consistent date style","Right length (1 page for fresh graduates)",".docx or text-based PDF","File name is Firstname_Lastname_CV","Contact details complete, professional email","Summary is 2 to 4 lines and names the target role","Skills match the job post where true","Jobs are newest first","Every bullet starts with an action verb","Half or more of my bullets have a number or result","NYSC, internship, volunteering or projects included","Education complete with year","No date of birth or marital status","Everything is true and I can explain it","I highlighted keywords in the job post","At least 8 relevant keywords used naturally","No keyword stuffing or hidden text","Summary and top bullets tailored to this job","It passed the copy-paste test"];
+var box=document.getElementById("chk");
+items.forEach(function(t,i){var l=document.createElement("label");l.innerHTML='<input type="checkbox"><span>'+(i+1)+'. '+t+'</span>';box.appendChild(l)});
+box.addEventListener("change",function(){var s=box.querySelectorAll("input:checked").length,m=s>=23?"Excellent. Your CV is ATS-ready.":s>=18?"Good. Fix the unticked items and you are there.":s>=12?"Fair. Revise the lessons where you lost points.":"Needs work. Rebuild with Template A or B and retake the test.";document.getElementById("n").textContent=s;document.getElementById("msg").textContent=m});
+</script>
+</body>
+</html>
